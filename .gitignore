@@ -1,0 +1,30 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated builds and release packages
+/build/
+/dist/
+/*.spec
+/BloombergAutoCapture*.zip
+
+# Generated captures and test results
+/test-output/
+/self-test-output/
+captures_*/
+Bloomberg_*.pptx
+*.log
+
+# Local settings and OS metadata
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store
